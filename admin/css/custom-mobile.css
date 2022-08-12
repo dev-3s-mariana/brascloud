@@ -1,0 +1,144 @@
+#mobHambBtn {
+	display: none;
+}
+@media (max-width:767px) {
+	#mobHambBtn {
+		display: inline-block;
+	}
+	body::after {
+    	background:#fff !important;
+	}
+	.box_main {
+		min-width: auto;
+	}
+	.menu {
+		min-height: auto !important;
+		width: 100%;
+		float: none !important;
+		margin: 0px;
+		padding-top: 1px;
+	}
+	.bg_menu {
+	    height: auto;
+	    width: auto !important;
+	}
+	.menu_logo {
+		width: 100%;
+	}
+	.menu_bts {
+		text-align: center;
+		padding-bottom: 15px;
+		margin-bottom: 0px;
+	}
+	.menu_sec_ip {
+	    background: url(../images/ico_search.png) no-repeat scroll 90% center #fff;
+	}
+	.menu_ul_li {
+	    background: url(../images/down.png) no-repeat scroll 90% 17px transparent;
+	}
+	.menu_close {
+		display: none;
+	}
+	.menu_ul, .menu_user, .menu_sec {
+		display: none;
+	}
+	footer {
+	    height: auto ;
+	    line-height: 20px;
+	    margin:  0;
+	    padding: 0;
+	    width: 100%;
+	    text-align: center;
+	}
+	footer small {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.migalha {
+		padding: 0px 10px;
+	}
+	section {
+		margin: 0px 20px 100px 20px;
+	}
+	.box_ip {
+		width: 100%;
+	}
+	.box_ip input#idade {
+		width: 100%;
+	}
+	.box_sel {
+		width: 98% !important;
+	}
+	.tipo_agenda {
+		width: 100% !important;
+	}
+	.box_sel_d {
+		width: 100%;
+	}
+	#principal {
+		overflow: scroll;
+		width: 100%;
+	}
+	.box_g, .box_pp, .box_mm, .box_p, .box_m {
+	    width: 100% !important ;
+	}
+
+	.box_cr label {
+		float: none;
+		display: block;
+	}
+	.search, .search.search_car {
+	    width: 100% !important; */
+	    float: none; */
+	}
+	.divBuscaMesAno {
+		width: 100% !important;
+	}
+	.abas_list {
+		float: none;
+	}
+	.abas_list_li {
+		width: 100%;
+	}
+	#alertas {
+		max-width: 100%;
+		text-align: center;
+		padding: 0px !important;
+		color: red !important;
+		right: 0px !important
+	}
+	#jSuccess, #jError, #jNotify {
+		min-width: 0px !important;
+		max-width: 100% !important;
+	}
+	.bt_cancel {
+		-webkit-appearance: none;
+	}
+	.content_left, .content_right {
+		width: 100%;
+		display: block;
+		float: left;
+		margin: 0px;
+	}
+	.content_right_plus {
+		width: auto !important;
+	}
+	.ui-dialog {
+		max-width: 100%;
+	}
+	.form {
+		max-width: 100%;
+	}
+	.menu_user_inner {
+	    background-position-x: 95%;
+	}
+	.menu_ul .hover {
+	    background: url(../images/up.png) no-repeat scroll 90% 17px #ad010d;
+	}
+	.pagination {
+
+		min-width: 602px;
+	}
+
+}

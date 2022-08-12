@@ -1,0 +1,195 @@
+.table {
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    color: #282828;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+}
+@media (max-width: 1024px){
+    .table{
+        font-size: 12px;
+    }
+}
+.table th {
+    border-bottom: 1px solid #dddddd;
+    height: 40px;
+}
+.table th a {
+    color: #282828;
+    display: inline-block;
+    font-family: "Robotom";
+    font-weight: normal;
+    line-height: 15px;
+    padding: 0 10px;
+}
+.table td {
+    height: 38px;
+}
+.table td span {
+    display: block;
+    line-height: 17px;
+    padding: 0 10px;
+}
+.table tbody tr:nth-child(2n+1) {
+    background-color: #f9f9f9;
+}
+.table .acts {
+    float: right;
+    white-space: nowrap;
+}
+.table .acts a {
+    display: inline-block;
+    font-size: 0;
+    line-height: normal;
+    margin: 0 10px 0 0;
+    position: relative;
+    vertical-align: middle;
+}
+.table .acts .tt {
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 10px 0 0;
+    position: absolute;
+    right: 23px;
+    top: -2px;
+}
+.table .acts .tt .one {
+    background: url("../images/tooltip_large.png") repeat scroll 0 0 transparent;
+    display: inline-block;
+    line-height: 22px;
+    padding: 0 0 0 5px;
+    white-space: nowrap;
+}
+.table .acts .tt .two {
+    background: url("../images/tooltip.png") repeat scroll right 0 transparent;
+    display: inline-block;
+    height: 22px;
+    line-height: normal;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+}
+.table .acts a:hover .tt {
+    display: block;
+}
+.table a.action{
+    background: url("../images/set_table.png") no-repeat scroll right center transparent;
+}
+.table a.actionUp{
+    background: url("../images/set_table_up.png") no-repeat scroll right center transparent;
+}
+
+.table .al_center{
+    text-align: center;
+}
+.pagination {
+    background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin: 9px 0 0;
+    overflow: hidden;
+    padding: 7px 12px;
+}
+.pagination .left .one {
+    border-right: 1px solid #dddddd;
+    float: left;
+    line-height: 18px;
+    margin: 6px 0;
+    padding: 0 12px 0 0;
+}
+.pagination .left .two {
+    float: left;
+    line-height: 30px;
+}
+.pagination .left .select {
+    background: url("../images/select2.png") no-repeat scroll right -1px transparent;
+    border-bottom: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+    border-radius: 2px;
+    border-top: 1px solid #c4c4c4;
+    cursor: pointer;
+    float: left;
+    margin: 0 9px 0 14px;
+    overflow: hidden;
+    width: 80px;
+}
+.pagination .left .select select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #000000;
+    font-family: "RobotoL";
+    font-size: 14px;
+    height: 28px;
+    padding: 3px 0 3px 5px;
+    width: 100px;
+}
+.pagination .right {
+    float: right;
+}
+.pagination .right span {
+    display: block;
+    float: left;
+    line-height: 30px;
+    margin: 0 7px;
+}
+.pagination .right .prev {
+    background: url("../images/controls_pagination.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 30px;
+    width: 34px;
+}
+.pagination .right .next {
+    background: url("../images/controls_pagination.png") repeat scroll 68px 0 transparent;
+    float: left;
+    height: 30px;
+    width: 34px;
+}
+.pagination .right .disable {
+    opacity: 0.6;
+}
+.pagination .right .select {
+    background: url("../images/select2.png") no-repeat scroll right -1px transparent;
+    border-bottom: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+    border-radius: 2px;
+    border-top: 1px solid #c4c4c4;
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+    width: 80px;
+}
+.pagination .right .select select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #000000;
+    font-family: "RobotoL";
+    font-size: 14px;
+    padding: 4px 0 4px 5px;
+    width: 100px;
+}
+.pagination .pagip {
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    color: #282828;
+    float: left;
+    font-family: "RobotoL";
+    font-size: 14px;
+    height: 30px;
+    padding: 0 5px;
+    text-align: center;
+    width: 40px;
+}
+#loadingContainer{
+    border: 1px solid #dcdcdc;
+    font-size: 0;
+    height: 144px;
+    width: 192px;
+}
+#loadingContainer img{
+    width: 100%;
+}

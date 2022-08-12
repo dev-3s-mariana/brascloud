@@ -1,0 +1,30 @@
+ARQUIVOS A SEREM COPIADOS PARA A PASTA CSS
+custom-mobile.css
+menumob.png
+
+
+ARQUIVO INDEX.PHP E LOGIN.PHP
+Adicionar o viewport ao cabecalho
+
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+
+ARQUIVO INDEX.PHP:
+
+<!-- CUSTOM MOBILE CSS  ABAIXO DOS OUTROS CSS -->
+<link type="text/css" rel="stylesheet" href="css/custom-mobile.css" />
+
+
+
+
+ARQUIVO MENU.PHP
+adicionar o código abaixo logo após a div ID "logoffBtn"
+
+<!-- ADD ICON MENU -->
+  <a href='#' id='mobHambBtn' onclick="showMenuMob(this)" class='menu_bts_li'><img src='css/menumob.png' height='30' width='55' alt='ico'></a>
+  <script>
+    function showMenuMob() {
+      $(".menu_ul, .menu_user, .menu_sec").fadeToggle();
+    }
+  </script>
+<!-- STOP ICON MENU -->

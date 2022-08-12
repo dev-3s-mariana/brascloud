@@ -1,0 +1,12 @@
+img.img-depoimento {
+    border-radius: 50%;
+    width: 80px;
+    margin: 10px;
+    height: 80px;
+}
+img.img-depoimento-form {
+    border-radius: 50%;
+    width: 150px;
+    margin: 10px;
+    height: 150px;
+}

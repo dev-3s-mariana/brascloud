@@ -1,0 +1,71 @@
+.novaTag{
+	float: left;
+	width: 730px;
+	padding-top: 30px;
+}
+.novaTag .salvar{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.listagemtags{
+	width: 100%;
+	float: left;
+}
+
+.tags{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #EAEAEA;
+} 
+ 
+.nameTag{
+	float:left;
+	width: auto;
+}
+
+.tags .box_ip{
+	float: left;
+	width: 30%; 
+}
+
+.tags .box_ip textarea{
+	height: 80px; 
+}
+
+.deletetag{
+	margin-left: 10px;
+	float: left;
+}
+
+.btn-pesquisar{
+   background-color: #c40318;
+   border: medium none;
+   border-radius: none;
+   box-shadow: none;
+   color: #fff;
+   cursor: pointer;
+   font-size: 16px;
+   line-height: 40px;
+   text-align: center;
+   text-transform: uppercase;
+   width: 115px;
+}
+
+.btn-limpar{
+   background-color: #d4d4d4;
+   border: medium none;
+   border-radius: none;
+   box-shadow: none;
+   color: #fff;
+   cursor: pointer;
+   font-size: 16px;
+   line-height: 40px;
+   margin: 0 10px 0 0;
+   text-align: center;
+   text-transform: uppercase;
+   width: 115px;
+}

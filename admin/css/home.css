@@ -1,0 +1,13 @@
+body::after{
+	background: url("../images/cliente/logo_large.png") no-repeat scroll center center #fff;
+	box-sizing: border-box;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.2;
+    padding: 0 0 0 210px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}

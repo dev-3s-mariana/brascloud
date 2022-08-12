@@ -1,0 +1,11 @@
+.page-not-found{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    height: 50vh;
+}
+
+.page-not-found-text{
+    display: flex;
+    flex-wrap: wrap;
+}

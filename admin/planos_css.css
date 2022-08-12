@@ -1,0 +1,379 @@
+/*Ícone principal*/
+#mostrar_icone{
+    margin: 15px;
+}
+
+.pump{
+    margin: 10px;
+}
+
+.botaoArquivo{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: end;
+    cursor: pointer;
+}
+
+.botaoArquivo input{
+    padding: 0px;
+    width: 25%;
+}
+
+.botaoArquivo i{
+    position: absolute;
+    height: -webkit-fill-available;
+    display: flex;
+    color: white;
+    place-content: end;
+    align-items: center;
+}
+
+#tab-2.current{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tab-2 .content_tit, #tab-2 .botaoArquivo, #tab-2 .pre{
+    width: 100%;
+}
+
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current {
+    background: #ededed;
+    color: #222;
+}
+
+.tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+#tab-1-not-grid.current {
+    display: inherit;
+}
+
+/*Grid*/
+#tableRecursos th:nth-child(1){
+    width: 20%;
+}
+
+#tableRecursos th:nth-last-child(1){
+    width: 10%;
+}
+
+.fs-11{
+    font-size: 11px;
+}
+
+.m-15{
+    margin: 15px;
+}
+
+.file-upload{
+    display: none;
+}
+
+.box_ip .content_tit{
+    margin-left: 0;
+}
+
+.listaRecursos .content_tit a{
+    cursor: pointer;
+}
+
+.td-flex{
+    display: flex !important;
+}
+
+.td-flex span{
+    cursor: pointer;
+}
+
+.td-flex span:hover{
+    color: var(--mainred);
+}
+
+.btn-choose-icon:not(.tab-link){
+    color: white !important;
+    padding-left: 0px !important;
+}
+
+.td-padding{
+    padding: 5px;
+}
+
+.gridLista .table{
+    border-collapse: collapse;
+}
+
+.gridLista .table thead {
+    background-color: #e2e4e7;
+}
+
+.btn{
+    background-color: #c40318 !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    font-family: "RobotoM" !important;
+    line-height: 30px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    width: 20%;
+    cursor: pointer !important;
+}
+
+/*Galeria*/
+#icone_upload {
+    display: none;
+}
+
+.imagem-gallery{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    opacity: .5;
+    position: relative;
+}
+
+.imagem-gallery:hover{
+    opacity:1;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+#sortable { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+
+#sortable li { 
+    margin: 10px;
+    display: flex;
+    padding: 1px; 
+    float: left; 
+    width: 100px;  
+    text-align: center;
+    position: relative;
+    place-content: end;
+    align-items: end;
+}
+
+#sortable li a{
+    position: absolute;
+    display: flex;
+    place-items: end;
+}
+
+#sortable li .editImagemDescricao{
+    width: 35%;
+}
+
+button.edit{
+    width:16px;
+    height:16px;   
+    background:url('images/edit.png');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    border:0;
+    border-radius:2px;
+    cursor:pointer;
+}
+
+button.delete{
+    width:16px;
+    height:16px;   
+    background:url('images/delete.png');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    border:0;
+    border-radius:2px;
+    cursor:pointer;
+}
+
+.button{
+    border:0;
+    width:115px;
+    height:40px;
+    padding:5px;
+    background-color:#c40318;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'RobotoL', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    cursor:pointer;
+    overflow: hidden;
+    margin-left:10px;
+} 
+
+.move{
+    cursor:move;
+}
+
+.cancel{
+    background-color:#d4d4d4;
+}
+
+#sortable{  
+    overflow-y:hidden;
+}
+
+button.post_imagem{  
+    width:16px;
+    height:16px;  
+    background:url('images/postImagem.jpg');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    border:0;
+    float:right;
+    border-radius:2px;
+    cursor:pointer;
+    margin-top:-95px;
+    margin-right:30px;  
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+}
+
+button.crop_imagem{  
+    width:16px;
+    height:16px;  
+    background:url('images/crop_imagem.png');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    border:0;
+    float:right; 
+    border-radius:2px;
+    cursor:pointer;
+    margin-top:-95px;
+    margin-right:50px;  
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+}  
+
+#boxDescricao{
+    background: none!important;
+    padding: 0px;
+}
+
+#informacaoGaleria{
+    margin: 0px;
+}
+
+
+/*Ícones*/
+#pesquisar_icone, #pesquisar_icone-not-grid{
+    margin-bottom: 10px;
+}
+
+#div-page-icon-not-grid, #div-page-icon{
+    text-align: center;
+}
+
+#icone_pai-not-grid{
+    height: 900px;
+}
+
+.span-choose-icon,.span-choose-icon-not-grid{
+   border: 1px solid var(--mainred);
+   cursor: pointer;
+   margin: 5px;
+   user-select: none;
+   display: inline !important;
+   line-height: unset !important;
+}
+
+.span-page-active, .span-page:hover{
+   background-color: var(--mainred);
+   color: white;
+   padding: 3px !important;
+}
+
+.span-page-active-not-grid{
+   background-color: var(--mainred);
+   color: white;
+   padding: 3px !important;
+}
+
+.span-page{
+   color: black;
+   background-color: transparent;
+   padding: 3px !important;
+}
+
+.span-page-chevron,.span-page-chevron-not-grid{
+   cursor: pointer;
+   background-color: transparent;
+   color: black;
+   padding: 3px;
+   display: inline !important;
+   line-height: unset !important;
+}
+
+.span-page-chevron:hover, .span-page-chevron-not-grid:hover{
+   color: var(--mainred);
+}
+
+.tab-content-grid {
+  /*display: none;*/
+  background: #ededed;
+  padding: 15px;
+}
+
+#box_icons, #box_icons-not-grid{
+   display: none;
+}
+
+
+/*Imagens*/
+.ico-del{
+   cursor: pointer;
+}
+
+#getCroppedCanvasModal2{
+    display: none;
+}
+
+.div-save-cropped-image{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: end;
+}
+
+.save-cropped-image{
+    padding-left: 0px !important;
+    display: none;
+    background-color: #c40318;
+    box-shadow: none;
+    color: #fff !important;
+    cursor: pointer;
+    line-height: 40px !important;
+    text-align: center;
+    text-transform: uppercase;
+    width: 20% !important;
+}

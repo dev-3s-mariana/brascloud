@@ -1,0 +1,371 @@
+.banner{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.bn-img{
+	position: relative;
+	width: 100%;
+	height: 88vh;
+	z-index: 1;
+}
+.bn-img img{
+	width: 100%;
+}
+.bn-text{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	place-content:  center;
+	text-align: center;
+}
+.bn-text h1{
+	font-size: 55px;
+	font-weight: 700;
+	color: #fff;
+}
+/* -------- BANNER --------- */
+
+.conteudo1{
+	width: 100%;
+	background-color: #303030;
+	padding: 5% 0;
+	margin-bottom: 5%;
+}
+.conteudo1 form{
+	width: 52%;
+	margin-right: auto;
+	justify-content: space-between;
+}
+.content1 form .div-input{
+	width: 48%;
+	margin-bottom: 7%;
+}
+.content1 form .div-input span{
+	color: #fff;
+	font-size: 18px;
+}
+.content1 form .div-input input{
+	width: 100%;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	border-bottom: 2px solid #5A5A8F;
+	padding-left: 3%;
+}
+.content1 form .div-input input:focus, .content1 form .div-text textarea:focus{
+	border-bottom: 2px solid var(--bg-red);
+}
+.content1 form .div-text{
+	width: 100%;
+	margin-bottom: 7%;
+}
+.content1 form .div-text span{
+	color: #fff;
+	font-size: 18px;
+}
+.content1 form .div-text textarea{
+	width: 100%;
+	height: 150px;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	border-bottom: 2px solid #5A5A8F;
+	padding-top: 3%;
+	padding-left: 1.5%;
+}
+.botao-padrao{
+	justify-content: flex-start;
+}
+.conteudo1-info{
+	width: 38%;
+	align-content: baseline;
+}
+.info1{
+	width: 100%;
+	padding: 8% 6%;
+	background-color: var(--bg-red);
+	margin-bottom: 5%;
+	border-radius: 10px;
+	align-items: center;
+	align-self: baseline;
+}
+.info1 span{
+	width: 100%;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 3%;
+}
+.info1 a{
+	font-size: 16px;
+	color: #fff;
+}
+
+.mapa{
+    position: relative;
+	width: 95%;
+	justify-content: center;
+	margin: 5% auto 8% auto;
+}
+.mapa-title{
+	width: 100%;
+	margin-bottom: 5%;
+}
+.mapa-title h2{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	color: #000;
+}
+.mapa svg{
+	width: 90%;
+	object-fit: contain;
+}
+
+.box-map{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 0.5%;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.box-map span{
+    color: var(--bg-orange);
+}
+
+.blue{
+    left: 24%;
+    top: 18%;
+}
+.orange{
+    left: 37%;
+    top: 81%;
+}
+.yellow{
+    left: 22%;
+    top: 26%;
+}
+.darkblue{
+    left: 39%;
+    top: 74%;
+}
+.darkyellow{
+    left: 38%;
+    top: 77%;
+}
+
+.mapa-bottom{
+    margin: 5% auto 0 auto;
+}
+.mapa-bottom h3{
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 2%;
+	font-weight: 600;
+}
+.mapa-bottom ul{
+	width: 100%;
+}
+.mapa-bottom ul li{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+/* MEDIA DESKTOP */
+@media screen and (max-width: 1600px){
+    .blue{
+        left: 19%;
+        top: 18%;
+    }
+    .orange{
+        left: 35%;
+        top: 81%;
+    }
+    .yellow{
+        left: 17%;
+        top: 26%;
+    }
+    .darkblue{
+        left: 37%;
+        top: 74%;
+    }
+    .darkyellow{
+        left: 36%;
+        top: 77%;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .blue{
+        left: 16%;
+        top: 18%;
+    }
+    .orange{
+        left: 33%;
+        top: 81%;
+    }
+    .yellow{
+        left: 13%;
+        top: 26%;
+    }
+    .darkblue{
+        left: 35%;
+        top: 74%;
+    }
+    .darkyellow{
+        left: 34%;
+        top: 77%;
+    }
+
+	.bn-text h1{
+		font-size: 50px;
+	}
+	.mapa-title h2{
+		font-size: 38px;
+	}
+	.mapa-bottom h3{
+		font-size: 22px;
+	}
+	.mapa-bottom ul li{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1360px){
+    .blue{
+        left: 14%;
+        top: 18%;
+    }
+    .orange{
+        left: 31%;
+        top: 81%;
+    }
+    .yellow{
+        left: 11%;
+        top: 26%;
+    }
+    .darkblue{
+        left: 33%;
+        top: 74%;
+    }
+    .darkyellow{
+        left: 32%;
+        top: 77%;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .blue{
+        left: 12%;
+        top: 18%;
+    }
+    .orange{
+        left: 29%;
+        top: 81%;
+    }
+    .yellow{
+        left: 9%;
+        top: 26%;
+    }
+    .darkblue{
+        left: 31%;
+        top: 74%;
+    }
+    .darkyellow{
+        left: 30%;
+        top: 77%;
+    }
+
+	.bn-text h1{
+		font-size: 45px;
+	}
+	.content1 form .div-input span, .content1 form .div-input input, .content1 form .div-text textarea{
+		font-size: 17px;
+	}
+	.info1 span{
+		font-size: 19px;
+	}
+	.info1 a{
+		font-size: 15px;
+	}
+	.mapa-title h2{
+		font-size: 35px;
+	}
+	.mapa-bottom h3{
+		font-size: 20px;
+	}
+	.mapa-bottom ul li{
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.bn-text h1{
+		font-size: 40px;
+	}
+	.content1 form .div-input span, .content1 form .div-input input, .content1 form .div-text textarea{
+		font-size: 16px;
+	}
+	.info1 span{
+		font-size: 18px;
+	}
+	.info1 a{
+		font-size: 14px;
+	}
+	.mapa-title h2{
+		font-size: 32px;
+	}
+	.mapa-bottom h3{
+		font-size: 19px;
+	}
+	.mapa-bottom ul li{
+		font-size: 16px;
+	}
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px){
+	.mapa{
+		width: 90%;
+		margin: 5% auto 15% auto;
+	}
+	 
+	.mapa img{
+		width: 100%;
+	}
+	.mapa-bottom{
+		width: 100%!important;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.conteudo1 form{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 10%;
+	}
+	.conteudo1-info{
+		width: 	100%;
+	}
+	.mapa-title h2{
+		font-size: 30px;
+	}
+	.mapa-bottom h3{
+		font-size: 18px;
+	}
+	.mapa-bottom ul li{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 400px){
+
+}
+
+@media screen and (max-width: 375px){
+
+}

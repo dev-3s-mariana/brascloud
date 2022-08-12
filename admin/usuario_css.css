@@ -1,0 +1,37 @@
+div#loadingContainer{
+	position:relative;
+}
+
+div#loading{
+	width:300px;;
+	height:225px;;
+	background-color:#fff;
+	position:absolute;
+	top:0px;
+	left:10px;
+	display:none;
+}
+
+div#loading #imagemLoading{
+	position:absolute;
+	top:85px;
+	left:123px;
+}
+
+fieldset#informacaoUsuario{
+	float:left;
+	width:400px;
+}
+
+
+fieldset#imagemUsuario{
+	width:320px;
+	float:right;
+	text-align:center;
+	background-color:#CCC;
+}
+
+
+div#clear{
+	clear:both;
+}

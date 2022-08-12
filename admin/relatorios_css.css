@@ -1,0 +1,33 @@
+
+.focus-static{
+    background-color: #fff !important;
+    font-family: "RobotoM" !important;
+    left: 15px !important;
+    padding: 0 5px !important;
+    top: -10px !important;
+}
+.imagemUpload{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.imagemUpload label{
+    position: initial !important;
+    display: block;
+    font-weight: bold;
+    height: 40px;
+    background-color: #c40318;
+    border-radius: 5px 5px 5px 0px;
+    color: #fff;
+    margin: 0px;
+    padding-top:10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.imagemUpload label span{
+    width: 100%;
+}
+.imagemUpload input[type='file'] {
+    display: none
+}

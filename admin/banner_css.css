@@ -1,0 +1,44 @@
+.banner{
+    width: 100%;
+}
+#updloadImagem{
+    width: 50%;
+}
+
+.maoir{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.bannerDinamico{
+	float: left;
+	width: 100%;
+	border-top: 1px solid #e2e4e7;
+	border-bottom: 1px solid #e2e4e7;
+	padding: 20px 0 10px 0;
+	margin-bottom: 20px;
+}
+
+#getCroppedCanvasModal2{
+    display: none;
+}
+
+.div-save-cropped-image{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: end;
+}
+
+.save-cropped-image{
+    padding-left: 0px !important;
+    display: none;
+    background-color: #c40318;
+    box-shadow: none;
+    color: #fff !important;
+    cursor: pointer;
+    line-height: 40px !important;
+    text-align: center;
+    text-transform: uppercase;
+    width: 20% !important;
+}

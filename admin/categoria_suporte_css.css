@@ -1,0 +1,133 @@
+.span-choose-icon{
+   border: 1px solid var(--mainred);
+   cursor: pointer;
+   margin: 5px;
+   user-select: none;
+}
+
+.span-page-active, .span-page:hover{
+   background-color: var(--mainred);
+   color: white;
+   padding: 3px;
+}
+
+.span-page{
+   color: black;
+   background-color: transparent;
+   padding: 3px;
+}
+
+.span-page-chevron{
+   cursor: pointer;
+   background-color: transparent;
+   color: black;
+   padding: 3px;
+}
+
+.span-page-chevron:hover{
+   color: var(--mainred);
+}
+
+.separa{
+  float: left;
+  border-top: 1px solid #e2e4e7;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul.tabs li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+ul.tabs li.current {
+  background: #ededed;
+  color: #222;
+}
+
+.tab-content {
+  display: none;
+  background: #ededed;
+  padding: 15px;
+}
+
+.tab-content.current {
+  display: inherit;
+}
+
+#icone_upload {
+  display: none;
+}
+
+span#inputArquivoBotao {
+  background-color: #c40318;
+  color: white;
+  padding: 8px 15px;
+  text-transform: uppercase;
+}
+
+span#inputArquivoBotao i {
+  margin: 0 10px;
+}
+
+.botaoAdicionar {
+  background-color: #c40318;
+  color: white;
+  padding: 8px 15px;
+  text-transform: uppercase;
+}
+
+.botaoAdicionar i {
+  margin: 0 10px;
+}
+
+img#icone {
+  margin: 5px 5px 10px 0px;
+}
+
+a.verArquivo {
+  background: #c40318;
+  width: 125px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#tab-1{
+    height: 1096px;
+}
+
+.labeltxt{
+    margin-bottom:15px
+}
+
+#mostrar_icone{
+    margin: 15px
+}
+
+#pesquisar_icone{
+    margin-bottom: 10px
+}
+
+#icone_pai{
+    height: 86.79%;
+}
+
+#div-page-icon{
+    margin: 0 auto;text-align: center;padding: 0px;
+}
+
+.pump{
+    margin-top: 10px
+}

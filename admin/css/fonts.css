@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'RobotoM';
+    src: url('../fonts/robotomedium.eot');
+    src: url('../fonts/robotomedium.eot?#iefix') format('embedded-opentype'),
+    	 url('../fonts/robotomedium.svg#RobotoM') format('svg'),
+         url('../fonts/robotomedium.ttf') format('truetype'),
+         url('../fonts/robotomedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoL';
+    src: url('../fonts/robotolight.eot');
+    src: url('../fonts/robotolight.eot?#iefix') format('embedded-opentype'),
+    	 url('../fonts/robotolight.svg#RobotoL') format('svg'),
+         url('../fonts/robotolight.ttf') format('truetype'),
+         url('../fonts/robotolight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoB';
+    src: url('../fonts/robotobold.eot');
+    src: url('../fonts/robotobold.eot?#iefix') format('embedded-opentype'),
+    	 url('../fonts/robotobold.svg#RobotoB') format('svg'),
+         url('../fonts/robotobold.ttf') format('truetype'),
+         url('../fonts/robotobold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

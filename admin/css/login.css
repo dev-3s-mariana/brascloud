@@ -1,0 +1,77 @@
+.login {
+    margin: 100px auto 0;
+    width: 355px;
+}
+.login_logo {
+    font-size: 0;
+    margin: 0 0 32px;
+    text-align: center;
+}
+.login_inner {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+}
+.login_inner_tit {
+    background-color: #333;
+    color: #fff;
+    font-family: "RobotoM";
+    font-size: 16px;
+    line-height: 60px;
+    margin: 0 0 24px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+.login_inner_tit img{
+    left: 171px;
+    position: absolute;
+    top: -7px;
+}
+.login_inner_ip {
+    background: url("../images/ico_user.png") no-repeat scroll -1px -1px #fff;
+    border: 1px solid #cfcfcf;
+    color: #6e6e6e;
+    font-family: "RobotoL";
+    font-size: 14px;
+    line-height: 38px;
+    margin: 0 30px 7px;
+    padding: 0 0 0 50px;
+    width: 295px;
+}
+.login_inner_ip + .login_inner_ip {
+    background: url("../images/ico_key.png") no-repeat scroll -1px -1px #fff;
+}
+.login_inner_bt {
+    background-color: #ffe400;
+    border: medium none;
+    color: #333;
+    cursor: pointer;
+    font-family: "RobotoL";
+    font-size: 20px;
+    line-height: 40px;
+    margin: 13px 30px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 295px;
+}
+.login_inner_fg {
+    color: #ffe400;
+    display: block;
+    line-height: 20px;
+    padding: 0 0 24px;
+    text-align: center;
+}
+small {
+    bottom: 0;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    left: 0;
+    line-height: 44px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+small a {
+    color: #fff;
+    display: inline;
+}

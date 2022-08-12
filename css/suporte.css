@@ -1,0 +1,267 @@
+.banner{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.bn-img{
+	position: relative;
+	width: 100%;
+	height: 88vh;
+	z-index: 1;
+}
+.bn-img img{
+	width: 100%;
+}
+.bn-text{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	place-content:  center;
+	text-align: center;
+}
+.bn-text h1{
+	font-size: 55px;
+	font-weight: 700;
+	color: #fff;
+}
+/* -------- BANNER --------- */
+
+#suporte .conteudo-slide .conteudo-2{
+	margin-top: 0;
+}
+
+/* --- FAQ --- */
+.faq{
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%; 
+}
+.duvidas{
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.faq-perguntas{
+  cursor: pointer;
+  border-bottom: 1px solid #dbdbdb;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.faq-direction{
+  flex-direction: column;
+  width: 100%;
+}
+.faq-duvidas{
+  font-weight: 400;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 10px 0px;
+  background-color: #fff;
+  min-height: 50px;
+  border-radius: 10px;
+}
+.faq-duvidas h3{
+  color: #CCCCCC;
+  font-weight: 700;
+  font-size: 20px;
+}
+.faq-duvidas p img{
+  width: 25px;
+  height: 10px;
+}
+.duvidas-descricao{
+  display: none;
+  padding: 0 20px 20px 20px;
+}
+.duvidas-descricao p{
+  color: #CCCCCC;
+  font-size: 16px;
+  text-align: initial;
+  font-weight: 400;
+  padding-top: 2%;
+}
+.border-faq{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.faq-duvidas img{
+  transition: 0.3s;
+}
+.faq-active .change-color{
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+/* --- FORMULARIO --- */
+.conteudo1{
+	width: 100%;
+	padding: 5% 0 10%;
+	background-color: var(--bg-red);
+}
+.conteudo1-content{
+	width: 40%;
+	margin: 0 auto;
+}
+.content1-title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 8%;
+}
+.content1-title h1{
+	font-size: 55px;
+	font-weight: 100;
+	color: #fff;
+}
+.conteudo1-content form{
+	width: 100%;
+	justify-content: space-between;
+}
+.conteudo1-content form .div-input{
+	width: 48%;
+	margin-bottom: 7%;
+}
+.conteudo1-content form .div-input span{
+	color: #fff;
+	font-size: 18px;
+}
+.conteudo1-content form .div-input input{
+	width: 100%;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	border-bottom: 1px solid #000;
+	padding-left: 3%;
+}
+.conteudo1-content form .div-input input:focus{
+	border-bottom: 1px solid #fff;
+}
+.conteudo1-content form .div-text{
+	width: 100%;
+	margin-bottom: 7%;
+}
+.conteudo1-content form .div-text span{
+	color: #fff;
+	font-size: 18px;
+}
+.conteudo1-content form .div-text textarea{
+	width: 100%;
+	height: 150px;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	border-bottom: 1px solid #000;
+	padding-top: 3%;
+	padding-left: 1.5%;
+}
+.conteudo1-content .form-botao{
+	width: 100%;
+}
+.conteudo1-content .form-botao a{
+	color: #fff;
+	background-color: #000;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 2% 4%;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 4px;
+	cursor: pointer;
+}
+.conteudo1-content .form-botao a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.news1{
+	border: 1px solid #fff;
+}
+
+
+/* MEDIA DESKTOP */
+@media screen and (max-width: 1600px){
+
+}
+
+@media screen and (max-width: 1440px){
+	.bn-text h1, .content1-title h1{
+		font-size: 50px;
+	}
+	.faq-duvidas h3{
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 1366px){
+
+}
+
+@media screen and (max-width: 1280px){
+	.bn-text h1, .content1-title h1{
+		font-size: 45px;
+	}
+	.conteudo1-content form .div-input span{
+		font-size: 17px;
+	}
+	.conteudo1-content form .div-input input, .conteudo1-content form .div-text textarea{
+		font-size: 16px;
+	}
+	.faq-duvidas h3{
+		font-size: 18px;
+	}
+	.duvidas-descricao p{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.bn-text h1, .content1-title h1{
+		font-size: 40px;
+	}
+	.conteudo1-content form .div-input span{
+		font-size: 16px;
+	}
+	.conteudo1-content form .div-input input, .conteudo1-content form .div-text textarea{
+		font-size: 15px;
+	}
+	.conteudo1-content .form-botao a{
+		font-size: 13px;
+	}
+	.faq-duvidas h3{
+		font-size: 17px;
+	}
+	.duvidas-descricao p{
+		font-size: 14px;
+	}
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 480px){
+	.content1-title h1 {
+    font-size: 35px;
+	}
+	.conteudo1-content{
+		width: 80%;
+	}
+	.footer-news{
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.content1-title h1 {
+    font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 375px){
+
+}

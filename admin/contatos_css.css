@@ -1,0 +1,21 @@
+#resumo-pedido {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#resumo-pedido td, #resumo-pedido th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#resumo-pedido tr:nth-child(even){background-color: #f2f2f2;}
+
+#resumo-pedido tr:hover {background-color: #ddd;}
+
+#resumo-pedido th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--mainred);
+  color: white;
+}

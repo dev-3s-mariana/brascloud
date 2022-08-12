@@ -1,0 +1,329 @@
+section {
+    margin: 0 20px 100px 0;
+    overflow: hidden;
+}
+#titulo {
+    border-bottom: 5px solid #eaeaea;
+    color: #58595b;
+    font-size: 0;
+    line-height: 48px;
+    margin: 0 0 20px;
+    overflow: hidden;
+}
+#titulo i{
+   font-size: 25px;
+   vertical-align: middle;
+   margin-right: 10px;
+}
+#titulo img {
+    display: inline-block;
+    margin: 0 5px 0 2px;
+    vertical-align: middle;
+}
+#titulo span{
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: middle;
+}
+#principal {
+    overflow: hidden;
+}
+.form{
+    overflow: hidden;
+    width: 730px;
+}
+.content {
+    margin: 0 0 10px -10px;
+    overflow: hidden;
+}
+.content_tit {
+    display: block;
+    font-family: "RobotoM";
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 0 15px 10px;
+}
+.content_left {
+    float: left;
+    width: 355px;
+}
+.content_right {
+    float: left;
+    margin: 0 0 0 20px;
+    width: 355px;
+}
+.content_right .content_tit{
+    margin: 0 0 15px;
+}
+.box_ip {
+    float: left;
+    padding: 0 0 15px 10px;
+    position: relative;
+    width: 50%;
+}
+.box_full{
+    width: 100%;
+}
+.box_ip label {
+    color: #333;
+    left: 10px;
+    line-height: 20px;
+    padding: 0 10px;
+    position: absolute;
+    top: 10px;
+    transition: all 0.1s ease 0s;
+}
+div.focus label{
+	background-color: #fff;
+	font-family: "RobotoM";
+	left: 15px;
+	padding: 0 5px;
+	top: -10px;
+}
+.box_ip input {
+    border: 1px solid #e2e4e7;
+    color: #333;
+    font-family: "RobotoL";
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 0 10px;
+    width: 100%;
+}
+.box_ip textarea{
+	border: 1px solid #e2e4e7;
+    color: #333;
+    font-family: "RobotoL";
+    font-size: 14px;
+    height: 140px;
+    padding: 9px 0 0 10px;
+    width: 100%;
+}
+.box_ip .box_sel{
+    margin: 0px;
+}
+.box_cr {
+    clear: both;
+    margin: 0 0 15px 10px;
+    overflow: hidden;
+}
+.box_cr p {
+    font-family: 'RobotoM';
+    line-height: 17px;
+    margin: 0 0 5px;
+}
+.box_cr label {
+    float: left;
+    line-height: 20px;
+    margin: 0 5px;
+}
+.box_cr input {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+.box_cr span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.box_txt{
+	width: 100%;
+}
+.box_sel{
+	float: left;
+    margin: 0 0 15px 10px;
+    position: relative;
+    /*width: 395px;*/
+}
+.box_sel_d{
+	background: url("../images/select.png") no-repeat scroll 97% center #fff;
+    border: 1px solid #e2e4e7;
+    height: 40px;
+    overflow: hidden;
+    width: 100%;
+}
+.box_sel select{
+	background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #333;
+    font-family: "RobotoL";
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 0 10px;
+    width: 100%;
+}
+.box_sel label{
+	color: #333;
+    left: 0;
+    line-height: 20px;
+    padding: 0 10px;
+    position: absolute;
+    top: 10px;
+    transition: all 0.1s ease 0s;
+}
+.bt_cancel{
+    background-color: #d4d4d4;
+    border: medium none;
+    border-radius: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 115px;
+}
+.bt_save{
+    background-color: #c40318;
+    border: medium none;
+    border-radius: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 115px;
+}
+.yui-skin-sam table th .yui-dt-liner{
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 10px;
+}
+#abas {
+    border-bottom: 1px solid #eaeaea;
+    height: 28px;
+    line-height: 28px;
+    margin: 10px 0 19px;
+}
+.abas_list {
+    float: left;
+}
+.abas_list_li {
+    display: inline-block;
+    margin: 0 0 10px;
+    vertical-align: top;
+}
+.abas_list_li a {
+    color: #333;
+    display: block;
+    padding: 0 10px;
+}
+.abas_list .action a {
+    border-bottom: 5px solid #c40318;
+    font-family: "RobotoM";
+    font-size: 16px;
+    line-height: 25px;
+}
+.search {
+    overflow: hidden;
+}
+.search input {
+    background: url("../images/ico_search2.png") no-repeat scroll 99% center transparent;
+    border: 1px solid #e2e4e7;
+    color: #b3b3b3;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 0 0 10px;
+    width: 100%;
+}
+.search_bt{
+    color: #c40318;
+    float: right;
+    font-family: 'RobotoM';
+    font-size: 12px;
+    line-height: 31px;
+}
+.abas_bts {
+    float: right;
+    font-size: 0;
+}
+.abas_bts_li {
+    float: left;
+    margin: 0 0 0 10px;
+}
+.abas_bts_li img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.advanced {
+    background-color: #fcfbef;
+    border: 1px solid #ffeeba;
+    display: none;
+    margin: 0 0 24px;
+    overflow: hidden;
+    padding: 0 10px 0 0;
+    position: relative;
+}
+.advanced_tit {
+    color: #58595b;
+    font-family: "RobotoM";
+    font-size: 16px;
+    line-height: 19px;
+    margin: 6px 0 15px 10px;
+    text-transform: uppercase;
+}
+.advanced div.focus label{
+    background-color: #fcfbef;
+}
+.advanced_close{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.advanced_bt{
+    background-color: #c40318;
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90px;
+}
+.advanced .box_sel {
+    margin: 0;
+    /*padding: 0 0 15px 10px;*/
+    width: 100%;
+}
+.advanced .box_sel_d {
+    background: url("../images/select.png") no-repeat scroll 98% center #fff;
+}
+.advanced .box_sel label{
+    left: 10px;
+}
+.advanced .focus label{
+    left: 15px;
+}
+.other_abs {
+    float: right;
+}
+.other_abs_li {
+    display: inline-block;
+    line-height: 42px;
+    vertical-align: bottom;
+}
+.other_abs_li a {
+    color: #c40318;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.others_abs_br {
+    background-color: #ddd;
+    display: inline-block;
+    height: 9px;
+    line-height: 42px;
+    margin: 23px 10px 0;
+    vertical-align: top;
+    width: 1px;
+}

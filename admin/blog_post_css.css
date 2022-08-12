@@ -1,0 +1,240 @@
+.form{
+  width: 800px;
+}
+
+.tamanhoImagem{
+	margin: 10px 0 10px 0;
+}
+
+
+/* UPLOAD DE FOTOS */
+.thumbnail-gallery{		
+	border-radius:2px;
+	overflow:hidden;
+	float:left;
+	cursor:move;
+	margin-right:10px;
+	margin-bottom:6px;
+	
+}
+.thumbnail-gallery.over{
+	border: 1px dashed #000;
+}
+.imagem-gallery{
+	width:100px;
+	opacity:.5;
+	transition: opacity 1s;
+	position:relative;
+}
+
+.imagem-gallery:hover{
+	opacity:1;
+}
+.loading-img{
+	width:20px;
+	float:left;
+	margin:-50px 0 0 35px;
+}
+.bt-cancel-upload{
+	border:0;
+	width:100px;
+	border-radius:1px;
+	padding:5px;	
+	color:#fff;
+	font-family:"RobotoL", sans-serif;
+	background-color:#D62614;
+	cursor:pointer;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+/* UPLOAD DE FOTOS */
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+  #sortable li { margin: 3px 3px 15px 0; padding: 1px; float: left; width: 100px; height: 90px; font-size: 4em; text-align: center; }
+
+  button.edit{  
+  	width:16px;
+  	height:16px;	
+  	background:url('images/edit.png');
+  	background-size: 16px 16px;
+  	background-repeat: no-repeat;
+  	border:0;
+  	float:right;
+  	
+  	border-radius:2px;
+  	cursor:pointer;
+  	margin-top:-95px;
+  	margin-right:-8px;
+  	
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+  }
+  .button{
+  	border:0;
+  	width:115px;
+  	height:40px;
+  	padding:5px;
+  	background-color:#c40318;
+  	color:#fff;
+  	text-transform: uppercase;
+  	font-family: 'RobotoL', sans-serif;
+  	font-size: 16px;
+  	text-align: center;
+  	cursor:pointer;
+  	overflow: hidden;
+  	margin-left:10px;
+
+  } 
+.move{
+	cursor:move;
+}
+  button.delete{  
+  	width:16px;
+  	height:16px;	
+  	background:url('images/delete.png');
+  	background-size: 16px 16px;
+  	background-repeat: no-repeat;
+  	border:0;
+  	float:right;
+  	
+  	border-radius:2px;
+  	cursor:pointer;
+  	margin-top:-95px;
+  	margin-right:10px;	
+  	
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+  }
+  .cancel{
+  	background-color:#d4d4d4;
+  }
+
+#descricao{
+  padding:10px;
+}
+#excluir{
+  padding:10px;
+}
+.ui-dialog{
+  border:1px solid rgba(0,0,0,.1);
+}
+#sortable{  
+	overflow-y:hidden;
+}
+
+
+button.post_imagem{  
+    width:16px;
+    height:16px;  
+    background:url('images/postImagem.jpg');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    border:0;
+    float:right;
+    
+    border-radius:2px;
+    cursor:pointer;
+    margin-top:-95px;
+    margin-right:30px;  
+    
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+  }
+
+.advanced .box_sel{
+  padding: none!important;
+}
+
+
+#titulo span{
+
+  font-size: 30px;
+  font-family: "RobotoL";
+}
+
+ul.other_abs li{
+  line-height: 42px;
+  font-family: "RobotoL";
+}
+ul.other_abs li a:hover{
+  text-decoration: none;
+  color:#c40318;
+
+}
+
+div.content_tit{
+    display: block;
+    font-family: "RobotoM";
+    font-size: 20px;
+    line-height: 28px;
+ 
+}
+
+.box_ip label {
+  font-family: "RobotoL";
+  font-size: 14px;
+  font-weight: 100;  
+}
+
+#sortable li button{
+	margin-top: -50px;
+}
+
+
+#boxDescricao{
+  background: none!important;
+  padding: 21px 10px 23px 10px;
+}
+
+.box_sel{
+  margin-left: 0px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.advanced .box_sel{
+  padding-left: 0px!important;
+} 
+
+.box_sel{
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 0px;
+} 
+
+.maoir{
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#detalhe_data_ifr{
+    height: 40px!important;
+}
+
+
+.content_seo{
+  float: left; 
+  width: 100%;
+}
+
+.content_seo .label{
+  float: left; 
+  width: 100%;
+  color: #000;
+  font-size: 100%!important;
+  text-align: left;
+  margin-bottom: 20px; 
+} 
